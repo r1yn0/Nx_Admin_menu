@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>DZ ROLEPLAY</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+    <div id="adminMenu">
+
+        <div class="header">
+
+            <div>
+
+                <div class="logo">
+                    DZ
+                </div>
+
+                <div class="serverName">
+                    ROLEPLAY
+                </div>
+
+            </div>
+
+            <button
+                id="close"
+                class="closeButton"
+            >
+                ×
+            </button>
+
+        </div>
+
+        <div class="content">
+
+            <div class="sidebar">
+
+                <button
+                    class="menuButton active"
+                    data-page="players"
+                >
+                    PLAYERS
+                </button>
+
+                <button
+                    class="menuButton"
+                    data-page="vehicles"
+                >
+                    VEHICLES
+                </button>
+
+                <button
+                    class="menuButton"
+                    data-page="keys"
+                >
+                    KEYS
+                </button>
+
+                <button
+                    class="menuButton"
+                    data-page="jail"
+                >
+                    JAIL
+                </button>
+
+                <button
+                    class="menuButton"
+                    data-page="admin"
+                >
+                    ADMIN
+                </button>
+
+                <button
+                    class="menuButton"
+                    data-page="settings"
+                >
+                    SETTINGS
+                </button>
+
+            </div>
+
+            <div class="main">
+
+                <div id="playersPage">
+
+                    <div class="pageTitle">
+                        PLAYERS
+                    </div>
+
+                    <div id="playersList">
+                        Loading players...
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
